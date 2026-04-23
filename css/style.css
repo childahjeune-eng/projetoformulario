@@ -54,7 +54,7 @@ textarea {
     height: 45px;
 }
 
-.form-header p{
+.form-header p {
     color: darksalmon;
     border-bottom: 2px solid #31a5b9;
     width: 100%;
@@ -63,4 +63,16 @@ textarea {
     text-transform: uppercase;
     height: 45px;
     list-style: 45px;
+}
+
+.forme-body {
+    padding: 30px;
+}
+
+.titulo-form {
+    margin-bottom: 15px;
+}
+
+.forme-body p {
+    margin-bottom: 20px;
 }
