@@ -5,20 +5,20 @@
 }
 
 body {
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #530404;
+    color: #b60303;
 }
 
 p, label {
-    color: rgb(87, 2, 2);
+    color: rgb(167, 3, 3);
 }
 
 input {
     border: none;
-    border-bottom: 1px solid #632c2c;
+    border-bottom: 1px solid #920505;
     padding: 10px 0;
 }
 
@@ -33,16 +33,16 @@ textarea {
 .cabecalho {
     height: 160px;
     padding: 20px;
-    background-color: rgb(218, 98, 255);
+    background-color: rgb(226, 131, 255);
 }
 
 .cabecalho h3 {
-    color: rgb(19, 61, 47);
+    color: rgb(90, 219, 176);
     margin-top: 0;
 }
 
 .form-container {
-    background-color: rgb(230, 174, 154);
+    background-color: rgb(255, 255, 255);
     width: 60%;
     margin: 0 auto;
     position: relative;
@@ -50,13 +50,13 @@ textarea {
 }
 
 .form-header {
-    border-bottom: 1px solid #237280;
+    border-bottom: 1px solid #53bdcf;
     height: 45px;
 }
 
 .form-header p {
-    color: rgb(226, 217, 214);
-    border-bottom: 2px solid #31a5b9;
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid #91d7e4;
     width: 100%;
     text-align: center;
     margin: 0 auto;
