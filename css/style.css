@@ -101,7 +101,7 @@ textarea {
 
 .btn-submit {
     background-color: rgb(222, 187, 255);
-    color: rgb(165, 213, 255);
+    color: rgb(0, 0, 0);
     border: 2px solid transparent;
     width: 150px;
     height: 50px;
@@ -115,9 +115,3 @@ textarea {
     color: khaki;
     border-color: khaki;
 }
-
-
-
-
-
-
