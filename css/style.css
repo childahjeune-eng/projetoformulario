@@ -33,11 +33,11 @@ textarea {
 .cabecalho {
     height: 160px;
     padding: 20px;
-    background-color: crimson;
+    background-color: rgb(218, 98, 255);
 }
 
 .cabecalho h3 {
-    color: aquamarine;
+    color: rgb(19, 61, 47);
     margin-top: 0;
 }
 
@@ -55,7 +55,7 @@ textarea {
 }
 
 .form-header p {
-    color: darksalmon;
+    color: rgb(226, 217, 214);
     border-bottom: 2px solid #31a5b9;
     width: 100%;
     text-align: center;
@@ -76,3 +76,16 @@ textarea {
 .form-body p {
     margin-bottom: 20px;
 }
+
+.campo-obrigatorio {
+    color: crimson;
+}
+
+.caixaInputs {
+    margin-bottom: 35px;
+}
+
+.block {
+    display: block;
+}
+
