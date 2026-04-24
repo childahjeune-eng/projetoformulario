@@ -42,7 +42,7 @@ textarea {
 }
 
 .form-container {
-    background-color: rgb(252, 165, 165);
+    background-color: rgb(255, 252, 204);
     width: 60%;
     margin: 0 auto;
     position: relative;
@@ -55,7 +55,7 @@ textarea {
 }
 
 .form-header p {
-    color: rgb(255, 255, 255);
+    color: rgb(252, 248, 210);
     border-bottom: 2px solid #91d7e4;
     width: 100%;
     text-align: center;
