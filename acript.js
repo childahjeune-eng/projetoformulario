@@ -21,7 +21,7 @@ function salvarCarro(event) {
    carros.push(carro);
    localStorage.setItem("carros", JSON.stringify(carros));
 
-   adcionarNaTela(carro);
+   adicionarNaTela(carro);
 
    document.querySelector("form").reset();
 }
