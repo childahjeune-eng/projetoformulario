@@ -5,20 +5,20 @@
 }
 
 body {
-    background-color: rgb(250, 255, 186);
+    background-color: rgb(255, 161, 161);
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #050000;
+    color: #000000;
 }
 
 p, label {
-    color: rgb(17, 1, 1);
+    color: rgb(0, 0, 0);
 }
 
 input {
     border: none;
-    border-bottom: 1px solid #920505;
+    border-bottom: 1px solid #fc0000;
     padding: 10px 0;
 }
 
@@ -33,7 +33,7 @@ textarea {
 .cabecalho {
     height: 160px;
     padding: 20px;
-    background-color: rgb(241, 194, 255);
+    background-color: rgb(231, 150, 255);
 }
 
 .cabecalho h3 {
@@ -42,7 +42,7 @@ textarea {
 }
 
 .form-container {
-    background-color: rgb(255, 252, 204);
+    background-color: rgb(154, 136, 255);
     width: 60%;
     margin: 0 auto;
     position: relative;
@@ -50,13 +50,13 @@ textarea {
 }
 
 .form-header {
-    border-bottom: 1px solid #53bdcf;
+    border-bottom: 1px solid #78e8fc;
     height: 45px;
 }
 
 .form-header p {
-    color: rgb(252, 248, 210);
-    border-bottom: 2px solid #91d7e4;
+    color: rgb(252, 239, 130);
+    border-bottom: 2px solid #85e8fa;
     width: 100%;
     text-align: center;
     margin: 0 auto;
@@ -100,7 +100,7 @@ textarea {
 }
 
 .btn-submit {
-    background-color: rgb(222, 187, 255);
+    background-color: rgb(202, 145, 255);
     color: rgb(0, 0, 0);
     border: 2px solid transparent;
     width: 150px;
@@ -111,7 +111,14 @@ textarea {
 }
 
 .btn-submit:hover {
-    background-color: cornflowerblue;
+    background-color: rgb(149, 186, 255);
     color: rgb(255, 255, 255);
     border-color: rgb(255, 255, 255);
+}
+
+hr {
+    margin-top: 20px;
+    height: 3px;
+    background: -o-linear-gradient(to right, transparent, #ff4bc3, transparent, #f2ff42, transparent, #53e5ff);
+    margin: 20px;
 }
