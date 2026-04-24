@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(76, 0, 255);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -42,7 +42,7 @@ textarea {
 }
 
 .form-container {
-    background-color: rgb(240, 162, 255);
+    background-color: rgb(122, 81, 131);
     width: 60%;
     margin: 0 auto;
     position: relative;
@@ -50,13 +50,13 @@ textarea {
 }
 
 .form-header {
-    border-bottom: 1px solid #78e8fc;
+    border-bottom: 1px solid #223d42;
     height: 45px;
 }
 
 .form-header p {
-    color: rgb(252, 239, 130);
-    border-bottom: 2px solid #85e8fa;
+    color: rgb(71, 68, 35);
+    border-bottom: 2px solid #1a3135;
     width: 100%;
     text-align: center;
     margin: 0 auto;
@@ -100,7 +100,7 @@ textarea {
 }
 
 .btn-submit {
-    background-color: rgb(202, 145, 255);
+    background-color: rgb(69, 46, 90);
     color: rgb(0, 0, 0);
     border: 2px solid transparent;
     width: 150px;
@@ -111,7 +111,7 @@ textarea {
 }
 
 .btn-submit:hover {
-    background-color: rgb(149, 186, 255);
+    background-color: rgb(252, 253, 255);
     color: rgb(255, 255, 255);
     border-color: rgb(255, 255, 255);
 }
