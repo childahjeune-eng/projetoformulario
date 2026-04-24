@@ -120,5 +120,6 @@ hr {
     margin-top: 20px;
     height: 3px;
     background: -o-linear-gradient(to right, transparent, #ff4bc3, transparent, #f2ff42, transparent, #53e5ff);
-    margin: 20px;
+    margin: 20px 0;
+    border: none;
 }
