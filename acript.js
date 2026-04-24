@@ -9,4 +9,19 @@ function salvarCarro(event) {
    let cambioSelecionado = document.querySelector('input [name="marcha"]:checked');
 
    let cambio = cambioSelecionado ? cambioSelecionado.id : "Não informado";
+
+   let carro = {
+      titulo,
+      preco,
+      marca,
+      modelo,
+      cambio
+   };
+   let carros = JSON.parse(localStorage.getItem("carros")) || [];
+   carros.push(carro);
+   localStorage.setItem("carros", JSON.stringify(carros));
+
+   adcionarNaTela(carro);
+
+   document.querySelector("form").reset();
 }
