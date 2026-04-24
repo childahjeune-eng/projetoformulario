@@ -42,7 +42,7 @@ textarea {
 }
 
 .form-container {
-    background-color: rgb(122, 81, 131);
+    background-color: rgb(242, 186, 255);
     width: 60%;
     margin: 0 auto;
     position: relative;
@@ -100,7 +100,7 @@ textarea {
 }
 
 .btn-submit {
-    background-color: rgb(69, 46, 90);
+    background-color: rgb(218, 179, 255);
     color: rgb(0, 0, 0);
     border: 2px solid transparent;
     width: 150px;
