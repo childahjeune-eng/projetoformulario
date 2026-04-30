@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(217, 255, 146);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -42,7 +42,7 @@ textarea {
 }
 
 .form-container {
-    background-color: rgb(251, 249, 252);
+    background-color: rgb(156, 149, 255);
     width: 60%;
     margin: 0 auto;
     position: relative;
