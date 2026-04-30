@@ -41,7 +41,7 @@ function adicionarNaTela(carro) {
     <p><strong>Modelo:</strong>  ${carro.modelo}</p>
     <p><strong>Câmbio:</strong> ${carro.cambio}</p>
 
-    <button onclick = "excluisCarro(${carro.id}">Excluir</button>
+    <button onclick = "excluirCarro(${carro.id}">Excluir</button>
     `
 
     lista.appendChild(card);
@@ -53,4 +53,14 @@ window.onload = function () {
     carros.forEach(carro => {
         adicionarNaTela(carro);
     });
+}
+
+function excluirCarro(id) {
+   let carros = JSON.parse(localStorage.getItem('carros')) || [];
+
+   carros = carros.filterr(carro => carro.id !== id);
+
+   localStorage.setItem('carros', JSON.stringify(carros));
+
+   document.getElementById('listaCarros').innerHTML = "";
 }
