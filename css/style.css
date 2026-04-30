@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(217, 255, 146);
+    background-color: rgb(255, 255, 255);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -33,7 +33,7 @@ textarea {
 .cabecalho {
     height: 160px;
     padding: 20px;
-    background-color: rgb(228, 138, 255);
+    background-color: rgb(242, 198, 255);
 }
 
 .cabecalho h3 {
@@ -42,7 +42,7 @@ textarea {
 }
 
 .form-container {
-    background-color: rgb(156, 149, 255);
+    background-color: rgb(210, 206, 255);
     width: 60%;
     margin: 0 auto;
     position: relative;
@@ -50,13 +50,13 @@ textarea {
 }
 
 .form-header {
-    border-bottom: 1px solid #b0effa;
+    border-bottom: 1px solid #d5f6fc;
     height: 45px;
 }
 
 .form-header p {
-    color: rgb(252, 242, 134);
-    border-bottom: 2px solid #83eafc;
+    color: rgb(255, 252, 216);
+    border-bottom: 2px solid #c0f6ff;
     width: 100%;
     text-align: center;
     margin: 0 auto;
@@ -133,7 +133,7 @@ hr {
 
 .card {
     width: 250px;
-    background: #53e5ff;
+    background: #90e6f5;
     border-radius: 8px;
     padding: 10px;
     box-shadow: 0 2px 5px rgb(0, 0, 0,0.1);
