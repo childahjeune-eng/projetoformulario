@@ -27,7 +27,7 @@ function salvarCarro(event) {
 }
 
 function adicionarNaTela(carro) {
-   let lista = document.getElementById('listarCarros');
+   let lista = document.getElementById('listaCarros');
    let card = document.createElement('div');
    card.classList.add('card');
 
@@ -38,4 +38,15 @@ function adicionarNaTela(carro) {
    <p><strong>modelo:</strong> R$ ${carro.modelo}</p>
    <p><strong>câmbio:</strong> R$ ${carro.cambio}</p>
    `
+
+
+   lista.appendChild(card);
+}
+
+window.onload = function () {
+   let carros = JSON.parse(localStorage.getItem ('carros')) || [];
+
+   carros,forEach(carro => {
+      adicionarNaTela(carro);
+   });
 }
