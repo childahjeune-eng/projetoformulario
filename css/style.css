@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(76, 0, 255);
+    background-color: rgb(255, 255, 255);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -33,7 +33,7 @@ textarea {
 .cabecalho {
     height: 160px;
     padding: 20px;
-    background-color: rgb(208, 55, 255);
+    background-color: rgb(228, 138, 255);
 }
 
 .cabecalho h3 {
@@ -42,7 +42,7 @@ textarea {
 }
 
 .form-container {
-    background-color: rgb(242, 186, 255);
+    background-color: rgb(251, 249, 252);
     width: 60%;
     margin: 0 auto;
     position: relative;
@@ -50,13 +50,13 @@ textarea {
 }
 
 .form-header {
-    border-bottom: 1px solid #223d42;
+    border-bottom: 1px solid #b0effa;
     height: 45px;
 }
 
 .form-header p {
-    color: rgb(71, 68, 35);
-    border-bottom: 2px solid #1a3135;
+    color: rgb(252, 242, 134);
+    border-bottom: 2px solid #83eafc;
     width: 100%;
     text-align: center;
     margin: 0 auto;
@@ -100,7 +100,7 @@ textarea {
 }
 
 .btn-submit {
-    background-color: rgb(218, 179, 255);
+    background-color: rgb(250, 248, 252);
     color: rgb(0, 0, 0);
     border: 2px solid transparent;
     width: 150px;

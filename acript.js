@@ -25,3 +25,17 @@ function salvarCarro(event) {
 
    document.querySelector("form").reset();
 }
+
+function adicionarNaTela(carro) {
+   let lista = document.getElementById('listarCarros');
+   let card = document.createElement('div');
+   card.classList.add('card');
+
+   card.innerHTML = `
+   <h3>${carro.titulo}</h3>
+   <p><strong>preço:</strong> R$ ${carro.preco}</p>
+   <p><strong>marca:</strong> R$ ${carro.marca}</p>
+   <p><strong>modelo:</strong> R$ ${carro.modelo}</p>
+   <p><strong>câmbio:</strong> R$ ${carro.cambio}</p>
+   `
+}
